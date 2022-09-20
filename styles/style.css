@@ -1,0 +1,149 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+  background-image: url("../assets/home/background-home-desktop.jpg");
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.line {
+  width: 473px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.25;
+  margin-left: 44px;
+}
+
+.line2 {
+  width: 25px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.25;
+  margin-right: 53px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  padding-right: 130px;
+}
+
+.navText {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navSpan {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+
+  padding-right: 12px;
+}
+
+.divJos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 220px 165px 131px;
+}
+
+.divStanga {
+  height: 100%;
+  width: 100%;
+  max-width: 445px;
+}
+
+.divDreapta {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.circle {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.firstText {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 4.725px;
+  line-height: 34px;
+  color: #d0d6f9;
+}
+
+.secondText {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  color: #ffffff;
+  line-height: 172px;
+  margin: auto;
+}
+
+.thirdText {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+
+.circleText {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0b0d17;
+}
