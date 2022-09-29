@@ -21,6 +21,12 @@ function App(props) {
       name: "13 Create a Design System for Enum Workspace.",
       dueDate: new Date(2022, 6, 12),
     },
+    {
+      id: "T-4",
+      status: "Done",
+      name: "13 Create a Design System for Enum Workspace.",
+      dueDate: new Date(2022, 6, 12),
+    },
   ];
   return <TaskViewer data={props.data} />;
 }
