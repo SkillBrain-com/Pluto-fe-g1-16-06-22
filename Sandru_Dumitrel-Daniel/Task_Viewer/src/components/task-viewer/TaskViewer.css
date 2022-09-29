@@ -1,0 +1,25 @@
+.task-viewer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks-container {
+  width: 1780px;
+  height: 756px;
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #f3f3fb;
+  border-radius: 50px;
+}
+
+.header {
+  font-family: "Sen";
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  margin: 36px;
+}
