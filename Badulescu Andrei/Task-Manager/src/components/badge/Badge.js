@@ -1,11 +1,11 @@
 import "./Badge.css";
 
-function Badge(props) {
+const Badge = ({ status }) => {
   return (
     <div className="badge">
-      <p>{props.status}</p>
+      <p>{status}</p>
     </div>
   );
-}
+};
 
 export default Badge;
