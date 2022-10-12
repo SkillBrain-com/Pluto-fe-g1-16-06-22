@@ -26,12 +26,6 @@ const data = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit!",
     completed: true,
   },
-  {
-    id: "4",
-    title: "Todo 4",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit!",
-    completed: true,
-  },
 ];
 
 const App = () => {
